@@ -13,6 +13,7 @@
 
 body {
     padding: 20px 50px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -28,7 +29,7 @@ body {
 #logo img {
     height: 60px;
     padding-right: 10px;
-    border-right: 1px solid lightgray;
+    border-right: 2px solid gray;
 }
 
 nav {
@@ -54,7 +55,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    border-radius: 15px;
 }
 
 .jumbo-container {
@@ -63,6 +64,8 @@ a {
     padding-left: 30px;
     padding-right: 30%;
     height: 100%;
+    border-radius: 15px;
+
  }
 
 .jumbo-title {
@@ -77,6 +80,15 @@ main {
 
 .main-top {
     margin-bottom: 20px;
+}
+
+main p {
+    color: gray;
+    font-size: 12px;
+}
+
+.title {
+    margin-bottom: 5px;
 }
 
 .main-central {
@@ -96,11 +108,63 @@ aside {
     width: 58%;
 }
 
+.col-sx-top {
+    border-radius: 15px;
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.img-col-sx {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
+}
+
+.central-top {
+    border-radius: 15px;
+    background-image: url(../img/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.img-central {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.col-dx-top {
+    border-radius: 15px;
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.img-col-dx{
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+
 /* ***** footer ***** */
 
 footer {
     height: 60px;
 }
+
+
 
 
 
