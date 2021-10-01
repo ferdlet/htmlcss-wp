@@ -45,7 +45,7 @@ nav li {
 
 a {
     text-decoration: none;
-    color: lightgray;
+    color: gray;
 }
 
 .jumbotron {
@@ -132,8 +132,6 @@ aside {
     height: 150px;
     margin-bottom: 10px;
 }
-
-
 
 .col-dx-top {
     border-radius: 15px;
