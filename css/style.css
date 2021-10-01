@@ -25,9 +25,10 @@ body {
     margin-bottom: 20px;
 }
 
-.jumbotron {
-    height: 300px;
-    margin-bottom: 20px;
+#logo img {
+    height: 60px;
+    padding-right: 10px;
+    border-right: 1px solid lightgray;
 }
 
 nav {
@@ -38,11 +39,17 @@ nav li {
     display: inline-block;
     list-style: none;
     text-transform: uppercase;
+    font-size: 12px;
 }
 
 a {
     text-decoration: none;
+    color: lightgray;
+}
 
+.jumbotron {
+    height: 300px;
+    margin-bottom: 20px;
 }
 
 
