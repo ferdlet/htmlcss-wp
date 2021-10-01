@@ -1,0 +1,113 @@
+          /* ***** commons ***** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+body {
+    padding: 20px 50px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+/* header */
+.header-top {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+nav {
+    line-height: 40px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+/* ****** main ***** */
+main {
+    margin-bottom: 10px;
+}
+
+.main-top {
+    margin-bottom: 20px;
+}
+
+.main-central {
+    margin: 0 1%;
+}
+
+.col-sx, .main-central, .col-dx {
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside {
+    width: 20%;    
+}
+
+.main-central {
+    width: 58%;
+}
+
+/* ***** footer ***** */
+
+footer {
+    height: 60px;
+}
+
+
+
+/* ***** debug header ***** */
+
+.debug .header-top {
+    background-color: violet;
+}
+
+.debug .jumbotron {
+    background-color: rgb(255, 230, 0);
+}
+
+/* ***** debug main ***** */
+.debug main {
+    background-color: blue;
+}
+
+.debug .main-top, .debug .col-sx, .debug .main-central, .debug .col-dx {
+    background-color: lightskyblue;
+}
+
+.debug .col-sx, .debug .main-central, .debug .col-dx {
+    height: 600px;
+}
+
+.debug .main-top {
+    height: 80px;
+}
+
+/* debug footer */
+.debug footer {
+    background-color: purple;
+}
