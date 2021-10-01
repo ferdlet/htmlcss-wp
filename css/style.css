@@ -1,4 +1,4 @@
-          /* ***** commons ***** */
+/* ***** commons ***** */
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ body {
 #logo img {
     height: 60px;
     padding-right: 10px;
-    border-right: 2px solid gray;
+    border-right: 1px solid lightgrey;
 }
 
 nav {
@@ -46,6 +46,7 @@ nav li {
 a {
     text-decoration: none;
     color: gray;
+    margin-right: 10px;
 }
 
 .jumbotron {
@@ -62,7 +63,7 @@ a {
     padding-top: 200px;
     padding-left: 30px;
     padding-right: 30%;
- }
+}
 
 .layer {
     background-color: rgba(0, 0, 0, 0.1);
@@ -73,7 +74,11 @@ a {
 
 .jumbo-title {
     color: white;
- }
+}
+
+.jumbotron p {
+    font-size: 14px;
+}
 
 
 /* ****** main ***** */
@@ -158,8 +163,9 @@ footer {
     font-size: 20px;
 }
 
-footer h5 {
+footer div {
     text-align: center;
+    font-size: 12px;
 }
 
 
