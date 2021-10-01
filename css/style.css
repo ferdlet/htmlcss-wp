@@ -59,14 +59,17 @@ a {
 }
 
 .jumbo-container {
-    background-color: rgba(0, 0, 0, 0.1);
     padding-top: 200px;
     padding-left: 30px;
     padding-right: 30%;
-    height: 100%;
-    border-radius: 15px;
-
  }
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
 
 .jumbo-title {
     color: white;
@@ -119,12 +122,6 @@ aside {
     margin-bottom: 10px;
 }
 
-.img-col-sx {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-
-}
-
 .central-top {
     border-radius: 15px;
     background-image: url(../img/banner-2.jpg);
@@ -136,10 +133,7 @@ aside {
     margin-bottom: 10px;
 }
 
-.img-central {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
+
 
 .col-dx-top {
     border-radius: 15px;
@@ -152,17 +146,24 @@ aside {
     margin-bottom: 10px;
 }
 
-.img-col-dx{
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
 
 
 /* ***** footer ***** */
 
 footer {
-    height: 60px;
+    height: 40px;
+    line-height: 40px;
 }
+
+.heart {
+    color:red;
+    font-size: 20px;
+}
+
+footer h5 {
+    text-align: center;
+}
+
 
 
 
